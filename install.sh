@@ -52,7 +52,7 @@ then
   cd /usr/local/bin/
   wget $COINZIP
   unzip *.zip
-  rm scl-qt scl-tx linux.zip
+  rm scl-qt scl-tx scl-linux.zip
   chmod +x scl*
   
   mkdir -p $CONF_DIR
